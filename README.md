@@ -3,7 +3,7 @@
 Group eXampplers
 - Afnan Iman bin Azman (1920311)
 - Sharul Irfan bin Sharul Isram (1921825)
-- Hazim
+- Muhammad Hazim bin Ibrahim (2014309)
 
 Case Study website: https://ibayaq.kedah.gov.my/
 -Description-
