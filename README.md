@@ -102,3 +102,235 @@ Identification:
 
 evaluation
 prevention
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: Server Leaks Version Information via "Server" HTTP Response Header Field**
+- **Identify**
+  - URL: [https://www.google-analytics.com/g/](https://www.google-analytics.com/g/collect?v=2&tid=G-WB0WT1G0JH&gtm=45je4580v890436127za200&_p=1715503489872&gcd=13l3l3l3l1&npa=0&dma=0&cid=1025691879.1715503492&ul=en-us&sr=1536x864&uaa=x86&uab=64&uafvl=Chromium%3B124.0.6367.158%7CGoogle%2520Chrome%3B124.0.6367.158%7CNot-A.Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&frm=0&pscdl=noapi&_s=1&sid=1715503491&sct=1&seg=0&dl=https%3A%2F%2Fibayaq.kedah.gov.my%2F&dt=iBayaq&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3805)
+  - Risk: Low
+  - Confidence: High
+  - CWE ID: 200 (Information Exposure)
+  - WASC ID: 13 (Directory Indexing)
+
+ - **Evaluate**
+   - The web/application server is leaking version information via the "Server" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.
+  
+  - **Prevent**
+    - Ensure that your web server, application server, load balancer, etc. is configured to suppress the "Server" header or provide generic details.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Hash Disclosure
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CSRF
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Secured Cookies
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CSP
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# JS Library
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# HTTPS Implementation (TLS/SSL)
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Cookie Poisoning
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Potential XXS
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Information Disclosure
+
+## Automatic Scan
+
+
+
+## Manual Scan
+
+**Alert: **
+- **Identify**
+  - URL: []()
+  - Risk: 
+  - Confidence: 
+  - CWE ID: 
+  - WASC ID: 
+
+ - **Evaluate**
+   - 
+  
+  - **Prevent**
+    - 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
